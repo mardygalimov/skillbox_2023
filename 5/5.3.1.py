@@ -1,4 +1,4 @@
-x = int(input('Введите иск:'))
+x = int(input('Введите икс:'))
 y = int(input('Введите игрик:'))
 if x > y:
     print('x больше y')
