@@ -1,9 +1,9 @@
 count = int(input('Сколько мешков наловили?: '))
-total_waight = 0
-waight = 0
+total_weight = 0
+weight = 0
 num = 0
 while num < count:
-    waight = int(input('Введите вес мешка: '))
-    total_waight += waight
+    weight = int(input('Введите вес мешка: '))
+    total_weight += weight
     num += 1
-print('Суммарны вес всех мешков: ', total_waight)
+print('Суммарны вес всех мешков: ', total_weight)
