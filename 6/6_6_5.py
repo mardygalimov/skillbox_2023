@@ -3,6 +3,7 @@ tickets = 0
 summ_tickets = 0
 hour = 0
 coll = 0
+coll_check = False
 print('Начался восьмичасовой рабочий день.')
 while hours != hour:
     hour += 1
