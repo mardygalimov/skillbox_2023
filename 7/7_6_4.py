@@ -6,7 +6,8 @@ count_3 = 0
 count_4 = 0
 count_5 = 0
 ocenka = 0
-for bla in range(1,N+1):
+for stdnt in range(1,N+1):
+    print('Ученик: ', stdnt)
     ocenka = int(input('Введите оценку для ученика:'))
     if ocenka == 3:
         count_3 += 1
