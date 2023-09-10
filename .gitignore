@@ -14,7 +14,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-~/PaycharmProjects/skillbox_2023/.idea/
+~/PaycharmProjects/skillbox_2023/.idea/*
 lib/
 lib64/
 parts/

@@ -5,13 +5,14 @@
 # При этом коровы находятся не во всех стойлах.
 # Свободные и занятые обозначаются строкой из букв a и b,
 # где a — свободное стойло, b — занятое.
+
 data = input('Введите строку для анализа загрузки стойл: ')
 stoylo = 0
 milk = 0
 sum_milk = 0
+
 for symbol in data:
     stoylo += 1
-
     if symbol == 'b':
         print('stoylo=', stoylo)
         milk = stoylo * 2
