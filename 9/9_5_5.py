@@ -12,5 +12,4 @@ for symbol in text:
           buffer = count
           if buffer > max_count:
                max_count = buffer
-#          print('buffer=', buffer)
 print('Самое длинное слово,', max_count, 'букв')
