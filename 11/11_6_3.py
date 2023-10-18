@@ -36,7 +36,7 @@ percent = 0
 while total < size:
     time += 1
     total += speed
-    percent = math.ceil((total /size ) * 100)
+    percent = math.ceil((total / size ) * 100)
     print("Прошло ", time, "сек.", end='')
     if total >= size:
         print("Скачано", size, " из ", size, " Мб ", "100%")
