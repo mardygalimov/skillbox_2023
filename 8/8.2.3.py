@@ -1,4 +1,4 @@
-#
+# Деление клеток
 cells = 1
 all_time = int(input("Введите время эксперимента в часах: "))
 for hour in range(1, all_time // 3 + 1):
