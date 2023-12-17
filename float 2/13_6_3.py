@@ -30,9 +30,6 @@ def digit_revers(n):
         n2 = n2 + digit
     return n2
 
-#    print('"Обратное" ему число:', n2)
-
-
 x1 = int(input("Введите первое число: "))
 x2 = int(input("Введите второе число: "))
 
